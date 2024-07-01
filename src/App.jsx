@@ -7,6 +7,7 @@ import Services from './compents/Services'
 import Contact from './compents/Contact'
 import About from './compents/About'
 import Navbar from './NavFooter/Navbar'
+import Fooder from './NavFooter/Fooder'
 
 function App() {
   
@@ -20,6 +21,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Services />} />
       </Routes>
+      <Fooder/>
     </BrowserRouter>
   )
 }
