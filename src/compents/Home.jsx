@@ -61,7 +61,7 @@ function Home() {
 
           <div className="absolute  rounded-md  inset-y-32  right-0 sm:right-2 lg:right-10">
             <div className="p-2 sm:p-4 bg-mysin-400 max-w-[600px] rounded-md">
-              <p className='text-5xl sm:text-7xl text-white border-8 rounded border-white p-5 lg:p-10 font-semibold'>Commercial, logistical and marketing partner</p>
+              <p className='text-4xl md:text-5xl lg:text-7xl text-white border-8 rounded border-white p-5 lg:p-10 font-semibold'>Commercial, logistical and marketing partner</p>
             </div>
           </div>
 
@@ -70,7 +70,7 @@ function Home() {
           <img className='w-full h-full object-cover' src={portadaImg2} />
           <div className="absolute inset-y-32  left-0 sm:left-2  lg:right-10 rounded-md">
             <div className="p-2  bg-mysin-400 max-w-[600px] rounded">
-              <p className='font-semibold text-5xl sm:text-7xl text-white border-8 border-white p-5 px-5 lg:py-10'>Communicating Sustainable Marketing and Experiences</p>
+              <p className='font-semibold text-4xl md:text-5xl lg:text-7xl text-white border-8 border-white p-5 px-5 lg:py-10'>Communicating Sustainable Marketing and Experiences</p>
             </div>
           </div>
         </SwiperSlide>
@@ -78,7 +78,7 @@ function Home() {
           <img className='w-full h-full object-cover' src={portadaImg3} />
           <div className="absolute   inset-y-20  right-0 sm:right-2 lg:right-10 rounded-md">
             <div className="p-2 sm:p-4 bg-mysin-400 max-w-[600px] rounded">
-              <p className='font-semibold text-5xl sm:text-7xl text-white border-8 border-white p-5 lg:p-10'>Sustainable Management, Environmental Preservation, Native Culture and Tourism</p>
+              <p className='font-semibold text-4xl md:text-5xl lg:text-7xl text-white border-8 border-white p-5 lg:p-10'>Sustainable Management, Environmental Preservation, Native Culture and Tourism</p>
             </div>
           </div>
         </SwiperSlide>
@@ -87,7 +87,7 @@ function Home() {
           <img className='w-full h-full object-cover' src={portadaImg5} />
           <div className="absolute  inset-y-32  right-0 sm:right-2 lg:right-10 rounded-md">
             <div className="p-2 sm:p-4 bg-mysin-400 max-w-[600px] rounded">
-              <p className='font-semibold text-5xl sm:text-7xl text-white border-8 border-white p-5 lg:p-10'>Eco-sustainable advertising solutions and branding</p>
+              <p className='font-semibold text-4xl md:text-5xl lg:text-7xl text-white border-8 border-white p-5 lg:p-10'>Eco-sustainable advertising solutions and branding</p>
             </div>
           </div>
         </SwiperSlide>
@@ -95,8 +95,8 @@ function Home() {
       </Swiper>
       <section className="container mx-auto pt-10 lg:pt-20 px-2 divide-y-2 mb-10">
         <div className="grid grid-cols-4 gap-6 ">
-          <div className="col-span-4 mx-auto"><h2 className='text-5xl text-mysin-500 font-semibold'>our services</h2> </div>
-          <p className='max-w-[900px] mx-auto col-span-4 text-center text-xl text-mysin-400 font-light'>Our services are strategically coordinated and tailored to meet your sustainability goals, with a primary focus on fostering corporate growth and enhancing brand recognition for our clients.</p>
+          <div className="col-span-4 mx-auto"><h2 className='text-4xl md:text-5xl text-mysin-500 font-semibold'>our services</h2> </div>
+          <p className='max-w-[900px] mx-auto col-span-4 text-center text-lg md:text-xl text-mysin-400 font-light'>Our services are strategically coordinated and tailored to meet your sustainability goals, with a primary focus on fostering corporate growth and enhancing brand recognition for our clients.</p>
          <div className="col-span-4 grid grid-cols-4 gap-x-6 gap-y-10 mb-10 ">
          <article className="col-span-4 md:col-span-2 lg:col-span-1 card__article">
             <img src={servicesImg1} alt="image" className="card__img" />
@@ -158,64 +158,67 @@ function Home() {
         </div>
         <div className="grid  grid-cols-2 pt-10 ">
           
-          <div className="col-span-2 lg:col-span-1 grid items-center justify-center">
-          <h2 className=' text-5xl text-mysin-500 font-semibold text-center'>WHAT DISTINGUISHES US?</h2>
-            <img className='w-[70%] md:w-[60%] lg:w-full mx-auto lg:mb-0 mb-6' src={marketing} alt="" />
-            <div className="flex p-4 shadow-lg shadow-mysin-300 rounded-lg gap-2 bg-mysin-500 w-full mb-6 min-h-32 lg:max-w-[30vw] ">
-              <div className="grid items-center justify-center w-56">
+          <div className="col-span-2 lg:col-span-1 grid items-center justify-center ">
+          <h2 className=' text-3xl md:text-4xl text-mysin-500 font-semibold text-center'>WHAT DISTINGUISHES US?</h2>
+            <img className='w-[70%] md:w-[60%] lg:w-[80%] h-auto mx-auto lg:mb-0 mb-6' src={marketing} alt="" />
+            <div>
+              
+            </div>
+            <div className="flex p-4 shadow-lg shadow-mysin-300 rounded-lg gap-2 bg-mysin-500 mb-6 h-32 w-[95vw] lg:w-[95%] mx-auto ">
+              <div className="grid  justify-center w-56">
                 <img className='w-full ' src={GESTIÓN_SOSTENIBLE} alt="" />
               </div>
               <div className='grid'>
-                <h4 className='font-medium text-black text-xl'>SUSTAINABLE MANAGEMENT</h4>
-                <p className='text-base text-white font-extralight'>We seek to balance economic development with environmental care and social responsibility, minimizing environmental impact and maximizing resource efficiency.</p>
+                <h4 className='font-medium text-black text-lg md:text-xl'>SUSTAINABLE MANAGEMENT</h4>
+                <p className='text-sm md:text-base text-white font-extralight'>We seek to balance economic development with environmental care and social responsibility, minimizing environmental impact and maximizing resource efficiency.</p>
               </div>
             </div>
           </div>
 
-          <div className="col-span-2 lg:col-span-1 grid gap-6 items-center w-full ">
-            <div className="flex p-4 shadow-lg shadow-mysin-200 rounded-lg gap-2 bg-mysin-400  w-full lg:max-w-[30vw] ml-0 h-30 lg:ml-6">
-              <div className="grid items-center justify-center w-48">
+          <div className="justify-center col-span-2 lg:col-span-1 grid gap-6 items-center   ">
+          <div className="flex p-4 shadow-lg shadow-mysin-300 rounded-lg gap-2 bg-mysin-400 w-[95vw] lg:max-w-[30vw] ml-0  lg:ml-6">
+              <div className="grid justify-center w-48">
                 <img className='w-full ' src={MARKETING} alt="" />
               </div>
               <div className='grid'>
-                <h4 className='font-medium text-black text-xl'>SUSTAINABLE MANAGEMENT</h4>
-                <p className='text-base text-white font-extralight'>We seek to balance economic development with environmental care and social responsibility, minimizing environmental impact and maximizing resource efficiency.</p>
+                <h4 className='font-medium text-black text-lg md:text-xl'>SUSTAINABLE MANAGEMENT</h4>
+                <p className='text-sm md:text-base text-white font-extralight'>We seek to balance economic development with environmental care and social responsibility, minimizing environmental impact and maximizing resource efficiency.</p>
               </div>
             </div>
-            <div className="flex p-4 shadow-lg shadow-mysin-300 rounded-lg gap-2 bg-mysin-500 w-full lg:max-w-[30vw] ml-0 h-30 lg:mr-6">
-              <div className="grid items-center justify-center w-48">
+            <div className="flex p-4 shadow-lg shadow-mysin-300 rounded-lg gap-2 bg-mysin-500 w-[95vw] lg:max-w-[30vw] ml-0  lg:mr-6">
+              <div className="grid  justify-center w-48">
                 <img className='w-full ' src={CREATIVIDAD} alt="" />
               </div>
               <div className='grid'>
-                <h4 className='font-medium text-black text-xl'>SUSTAINABLE MANAGEMENT</h4>
-                <p className='text-base text-white font-extralight'>We seek to balance economic development with environmental care and social responsibility, minimizing environmental impact and maximizing resource efficiency.</p>
+                <h4 className='font-medium text-black text-lg md:text-xl'>SUSTAINABLE MANAGEMENT</h4>
+                <p className='text-sm md:text-base text-white font-extralight'>We seek to balance economic development with environmental care and social responsibility, minimizing environmental impact and maximizing resource efficiency.</p>
               </div>
             </div>
-            <div className="flex p-4 shadow-lg shadow-mysin-200 rounded-lg gap-2 bg-mysin-400 w-full lg:max-w-[30vw] h-30 lg:ml-6">
-              <div className=" w-48">
+            <div className="flex p-4 shadow-lg shadow-mysin-200 rounded-lg gap-2 bg-mysin-400 w-[95vw] lg:max-w-[30vw]  lg:ml-6">
+              <div className="grid  justify-center w-48">
                 <img className='w-full ' src={ENERGIA_RENOVABLE} alt="" />
               </div>
               <div className='grid'>
-                <h4 className='font-medium text-black text-xl'>SUSTAINABLE MANAGEMENT</h4>
-                <p className='text-base text-white font-extralight'>We seek to balance economic development with environmental care and social responsibility, minimizing environmental impact and maximizing resource efficiency.</p>
+                <h4 className='font-medium text-black text-lg md:text-xl'>SUSTAINABLE MANAGEMENT</h4>
+                <p className='text-sm md:text-base text-white font-extralight'>We seek to balance economic development with environmental care and social responsibility, minimizing environmental impact and maximizing resource efficiency.</p>
               </div>
             </div>
-            <div className="flex p-4 shadow-lg shadow-mysin-300 rounded-lg gap-2 bg-mysin-500 w-full lg:max-w-[30vw] h-30 lg:mr-6">
-              <div className=" w-48">
+            <div className="flex p-4 shadow-lg shadow-mysin-300 rounded-lg gap-2 bg-mysin-500 w-[95vw] lg:max-w-[30vw]  lg:mr-6">
+              <div className="grid  justify-center w-48">
                 <img className='w-full ' src={ECONOMIA_CIRCULAR} alt="" />
               </div>
               <div className='grid'>
-                <h4 className='font-medium text-black text-xl'>SUSTAINABLE MANAGEMENT</h4>
-                <p className='text-base text-white font-extralight'>We seek to balance economic development with environmental care and social responsibility, minimizing environmental impact and maximizing resource efficiency.</p>
+                <h4 className='font-medium text-black text-lg md:text-xl'>SUSTAINABLE MANAGEMENT</h4>
+                <p className='text-sm md:text-base text-white font-extralight'>We seek to balance economic development with environmental care and social responsibility, minimizing environmental impact and maximizing resource efficiency.</p>
               </div>
             </div>
-            <div className="flex p-4 shadow-lg shadow-mysin-200 rounded-lg gap-2 bg-mysin-400 w-full lg:max-w-[30vw] h-30 lg:ml-6">
-              <div className=" w-48">
+            <div className="flex p-4 shadow-lg shadow-mysin-200 rounded-lg gap-2 bg-mysin-400 w-[95vw] lg:max-w-[30vw]  lg:ml-6">
+              <div className="grid  justify-center w-48">
                 <img className='w-full ' src={ASOCIACIONES_ESTRATEGICAS} alt="" />
               </div>
               <div className='grid'>
-                <h4 className='font-medium text-black text-xl'>SUSTAINABLE MANAGEMENT</h4>
-                <p className='text-base text-white font-extralight'>We seek to balance economic development with environmental care and social responsibility, minimizing environmental impact and maximizing resource efficiency.</p>
+                <h4 className='font-medium text-black text-lg md:text-xl'>SUSTAINABLE MANAGEMENT</h4>
+                <p className='text-sm md:text-base text-white font-extralight'>We seek to balance economic development with environmental care and social responsibility, minimizing environmental impact and maximizing resource efficiency.</p>
               </div>
             </div>
           </div>
@@ -223,23 +226,23 @@ function Home() {
       </section>
       <section className='bg-black py-10 lg:py-20 grid gap-20'>
         <div className="grid gap-10 container mx-auto text-center px-2">
-          <h2 className='text-5xl text-mysin-500 font-semibold'>We are what you are looking for!</h2>
+          <h2 className='text-3xl md:text-4xl lg:text-5xl text-mysin-500 font-semibold'>We are what you are looking for!</h2>
           <div className="grid grid-cols-4 gap-8 justify-around">
-            <span className="grid gap-2 col-span-2 lg:col-span-1">
-              <h3 className='font-normal text-mysin-500 text-3xl'><CountUp start={0} end={14} duration={2} />+</h3>
-              <p className='text-xl text-mysin-600 font-light'>Years of <br></br> experience</p>
+            <span className="grid gap-2 col-span-2 md:col-span-1">
+              <h3 className='font-normal text-mysin-500 text-2xl md:text-3xl'><CountUp start={0} end={14} duration={2} />+</h3>
+              <p className='text-lg md:text-xl text-mysin-600 font-light'>Years of <br></br> experience</p>
             </span>
-            <span className="grid gap-2 col-span-2 lg:col-span-1">
-              <h3 className='text-3xl text-mysin-500 font-normal'><CountUp start={0} end={1000} duration={2} />+</h3>
-              <p className='text-xl text-mysin-600 font-light'>Trained <br></br>stakeholders</p>
+            <span className="grid gap-2 col-span-2 md:col-span-1">
+              <h3 className='text-2xl md:text-3xl text-mysin-500 font-normal'><CountUp start={0} end={1000} duration={2} />+</h3>
+              <p className='text-lg md:text-xl text-mysin-600 font-light'>Trained <br></br>stakeholders</p>
             </span>
-            <span className="grid gap-2 col-span-2 lg:col-span-1">
-              <h3 className='text-3xl text-mysin-500 font-normal'><CountUp start={0} end={2602} duration={2} />+</h3>
-              <p className='text-xl text-mysin-600 font-light'>Completed <br /> proyects</p>
+            <span className="grid gap-2 col-span-2 md:col-span-1">
+              <h3 className='text-2xl md:text-3xl text-mysin-500 font-normal'><CountUp start={0} end={2602} duration={2} />+</h3>
+              <p className='text-lg md:text-xl text-mysin-600 font-light'>Completed <br /> proyects</p>
             </span>
-            <span className="grid gap-2 col-span-2 lg:col-span-1">
-              <h3 className='text-3xl text-mysin-500 font-normal'><CountUp start={0} end={963} duration={2} />+</h3>
-              <p className='text-xl text-mysin-600 font-light'>Customers</p>
+            <span className="grid gap-2 col-span-2 md:col-span-1">
+              <h3 className='text-2xl md:text-3xl text-mysin-500 font-normal'><CountUp start={0} end={963} duration={2} />+</h3>
+              <p className='text-lg md:text-xl text-mysin-600 font-light'>Customers</p>
             </span>
           </div>
         </div>
@@ -248,7 +251,7 @@ function Home() {
      
       <section className=' py-10 lg:pt-20 grid gap-20'>
       <div className="container mx-auto text-center grid gap-6">
-          <h2 className='text-4xl text-black font-semibold'>SOME OF OUR <span className='text-mysin-500'>HAPPY</span>  CUSTOMERS</h2>
+          <h2 className='text-2xl md:text-3xl lg:text-4xl text-black font-semibold mb-6'>SOME OF OUR <span className='text-mysin-500'>HAPPY</span>  CUSTOMERS</h2>
           <div className="grid grid-cols-4 gap-6">
             <div className="flex items-center col-span-4 md:col-span-2 lg:col-span-1 mx-auto">
               <img  className="h-32 " src={depsa} alt="" />
