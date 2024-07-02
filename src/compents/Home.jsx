@@ -53,7 +53,7 @@ function Home() {
           disableOnInteraction: false,
         }}
         modules={[Autoplay, EffectFade, Navigation, Pagination]}
-        className="h-[70vh] mySwiper max-h-[1000px]"
+        className="h-[80vh] mySwiper max-h-[1000px]"
 
       >
         <SwiperSlide className='relative'>
