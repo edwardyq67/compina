@@ -45,7 +45,7 @@ import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper/modules';
 function Home() {
   return (
     <div className="mt-14">
-       <Swiper
+      <Swiper
         spaceBetween={30}
         effect={'fade'}
         autoplay={{
@@ -53,62 +53,53 @@ function Home() {
           disableOnInteraction: false,
         }}
         modules={[Autoplay, EffectFade, Navigation, Pagination]}
-        className="mySwiper"
+        className="h-[60vh] mySwiper"
+
       >
         <SwiperSlide className='relative'>
-          <div className="slide-image-container">
-            <img className='slide-image' src={portadaImg1} alt="Imagen 1" />
-            <div className="absolute rounded-md bottom-2 md:inset-y-32 right-0 sm:right-2 lg:right-10 px-2">
-              <div className="p-1 sm:p-4 bg-mysin-400 max-w-[600px]  rounded-md">
-                <p className='text-2xl sm:text-4xl md:text-5xl lg:text-7xl text-white border-4 md:border-6 lg:border-8 rounded border-white p-1  md:p-5 sm:p-3 lg:p-10 font-semibold'>
-                  Commercial, logistical and marketing partner
-                </p>
-              </div>
+          <img className='w-full h-full object-cover' src={portadaImg1} />
+
+          <div className="absolute  rounded-md  inset-y-32  right-0 sm:right-2 lg:right-10">
+            <div className="p-2 sm:p-4 bg-mysin-400 max-w-[600px] rounded-md">
+              <p className='text-4xl md:text-5xl lg:text-7xl text-white border-8 rounded border-white p-5 lg:p-10 font-semibold'>Commercial, logistical and marketing partner</p>
             </div>
           </div>
+
         </SwiperSlide>
-        
-        <SwiperSlide className='relative'>
-          <div className="slide-image-container">
-            <img className='slide-image' src={portadaImg2} alt="Imagen 2" />
-            <div className="absolute rounded-md bottom-2 md:inset-y-32 right-0 sm:right-2 lg:right-10 px-2">
+        <SwiperSlide>
+          <img className='w-full h-full object-cover' src={portadaImg2} />
+          <div className="absolute rounded-md bottom-2 md:inset-y-32 right-0 sm:right-2 lg:right-10 px-2">
               <div className="p-1 sm:p-4 bg-mysin-400 max-w-[600px]  rounded-md">
-                <p className='text-2xl sm:text-4xl md:text-5xl lg:text-7xl text-white border-4 md:border-6 lg:border-8 rounded border-white p-1  md:p-5 sm:p-3 lg:p-10 font-semibold'>
+                <p className='text-2xl sm:text-4xl md:text-5xl lg:text-6xl text-white border-4 md:border-6 lg:border-8 rounded border-white p-1  md:p-5 sm:p-3 lg:p-10 font-semibold'>
                   Communicating Sustainable Marketing and Experiences
                 </p>
               </div>
             </div>
-          </div>
         </SwiperSlide>
-        
-        <SwiperSlide className='relative'>
-          <div className="slide-image-container">
-            <img className='slide-image' src={portadaImg3} alt="Imagen 3" />
-            <div className="absolute rounded-md bottom-2 md:inset-y-32 right-0 sm:right-2 lg:right-10 px-2">
+        <SwiperSlide>
+          <img className='w-full h-full object-cover' src={portadaImg3} />
+          <div className="absolute rounded-md bottom-2 md:inset-y-32 right-0 sm:right-2 lg:right-10 px-2">
               <div className="p-1 sm:p-4 bg-mysin-400 max-w-[600px]  rounded-md">
-                <p className='text-2xl sm:text-4xl md:text-5xl lg:text-7xl text-white border-4 md:border-6 lg:border-8 rounded border-white p-1  md:p-5 sm:p-3 lg:p-10 font-semibold'>
+                <p className='text-2xl sm:text-4xl md:text-5xl lg:text-6xl text-white border-4 md:border-6 lg:border-8 rounded border-white p-1  md:p-5 sm:p-3 lg:p-10 font-semibold'>
                   Sustainable Management, Environmental Preservation, Native Culture and Tourism
                 </p>
               </div>
             </div>
-          </div>
         </SwiperSlide>
-        
-        <SwiperSlide className='relative'>
-          <div className="slide-image-container">
-            <img className='slide-image' src={portadaImg5} alt="Imagen 4" />
-            <div className="absolute rounded-md bottom-2 md:inset-y-32 right-0 sm:right-2 lg:right-10 px-2">
+
+        <SwiperSlide>
+          <img className='w-full h-full object-cover' src={portadaImg5} />
+          <div className="absolute rounded-md bottom-2 md:inset-y-32 right-0 sm:right-2 lg:right-10 px-2">
               <div className="p-1 sm:p-4 bg-mysin-400 max-w-[600px]  rounded-md">
-                <p className='text-2xl sm:text-4xl md:text-5xl lg:text-7xl text-white border-4 md:border-6 lg:border-8 rounded border-white p-1  md:p-5 sm:p-3 lg:p-10 font-semibold'>
+                <p className='text-2xl sm:text-4xl md:text-5xl lg:text-6xl text-white border-4 md:border-6 lg:border-8 rounded border-white p-1  md:p-5 sm:p-3 lg:p-10 font-semibold'>
                   Eco-sustainable advertising solutions and branding
                 </p>
               </div>
             </div>
-          </div>
         </SwiperSlide>
-        
+
       </Swiper>
-      <section className="container mx-auto pt-5 lg:pt-10 px-2 divide-y-2 mb-10">
+      <section className="container mx-auto pt-10 lg:pt-20 px-2 divide-y-2 mb-10">
         <div className="grid grid-cols-4 gap-6 ">
           <div className="col-span-4 mx-auto"><h2 className='text-4xl md:text-5xl text-mysin-500 font-semibold'>our services</h2> </div>
           <p className='max-w-[900px] mx-auto col-span-4 text-center text-lg md:text-xl text-mysin-400 font-light'>Our services are strategically coordinated and tailored to meet your sustainability goals, with a primary focus on fostering corporate growth and enhancing brand recognition for our clients.</p>
