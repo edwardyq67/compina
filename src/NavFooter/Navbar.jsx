@@ -39,13 +39,13 @@ function Navbar() {
               </a>
             </li>
             <li>
-              <a href="#" className="cursor-pointer block py-2 px-3 hover:text-mysin-400 transition-all duration-150 rounded md:hover:bg-transparent md:p-0 text-white md:dark:hover:bg-transparent">
+              <a onClick={()=>navigate("/about")} className="cursor-pointer block py-2 px-3 hover:text-mysin-400 transition-all duration-150 rounded md:hover:bg-transparent md:p-0 text-white md:dark:hover:bg-transparent">
                 About
               </a>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 cursor-pointer hover:text-mysin-400 transition-all duration-150 rounded md:hover:bg-transparent md:p-0 text-white md:dark:hover:bg-transparent">
-                Services
+              <a onClick={()=>navigate("/project")} className="block py-2 px-3 cursor-pointer hover:text-mysin-400 transition-all duration-150 rounded md:hover:bg-transparent md:p-0 text-white md:dark:hover:bg-transparent">
+              Project
               </a>
             </li>
             <li>
@@ -69,13 +69,13 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a href="#" className="cursor-pointer block py-2 px-3 transition-all duration-150 rounded md:hover:bg-transparent md:p-0 text-white md:dark:hover:bg-transparent">
+            <a onClick={()=>navigate("/about")}  className="cursor-pointer block py-2 px-3 transition-all duration-150 rounded md:hover:bg-transparent md:p-0 text-white md:dark:hover:bg-transparent">
               About
             </a>
           </li>
           <li>
-            <a href="#" className="block py-2 px-3 cursor-pointer hover:text-mysin-400 transition-all duration-150 rounded md:hover:bg-transparent md:p-0 text-white md:dark:hover:bg-transparent">
-              Services
+            <a onClick={()=>navigate("/project")} className="block py-2 px-3 cursor-pointer hover:text-mysin-400 transition-all duration-150 rounded md:hover:bg-transparent md:p-0 text-white md:dark:hover:bg-transparent">
+            Project
             </a>
           </li>
           <li>
