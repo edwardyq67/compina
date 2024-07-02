@@ -53,13 +53,13 @@ function Home() {
           disableOnInteraction: false,
         }}
         modules={[Autoplay, EffectFade, Navigation, Pagination]}
-        className="h-[60vh] mySwiper"
+        className="mySwiper"
 
       >
         <SwiperSlide className='relative'>
-          <img className='w-full h-full object-cover' src={portadaImg1} />
+          <img className='w-full h-auto max-h-[800px] object-cover' src={portadaImg1} />
 
-          <div className="absolute  rounded-md  inset-y-32  right-0 sm:right-2 lg:right-10">
+          <div className="absolute  rounded-md  bottom-0 md:inset-y-32  right-0 sm:right-2 lg:right-10">
             <div className="p-2 sm:p-4 bg-mysin-400 max-w-[600px] rounded-md">
               <p className='text-4xl md:text-5xl lg:text-7xl text-white border-8 rounded border-white p-5 lg:p-10 font-semibold'>Commercial, logistical and marketing partner</p>
             </div>
@@ -67,16 +67,16 @@ function Home() {
 
         </SwiperSlide>
         <SwiperSlide>
-          <img className='w-full h-full object-cover' src={portadaImg2} />
-          <div className="absolute inset-y-32  left-0 sm:left-2  lg:right-10 rounded-md">
+          <img className='w-full h-auto max-h-[800px] object-cover' src={portadaImg2} />
+          <div className="absolute bottom-0 md:inset-y-32  left-0 sm:left-2  lg:right-10 rounded-md">
             <div className="p-2  bg-mysin-400 max-w-[600px] rounded">
               <p className='font-semibold text-4xl md:text-5xl lg:text-7xl text-white border-8 border-white p-5 px-5 lg:py-10'>Communicating Sustainable Marketing and Experiences</p>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img className='w-full h-full object-cover' src={portadaImg3} />
-          <div className="absolute   inset-y-20  right-0 sm:right-2 lg:right-10 rounded-md">
+          <img className='w-full h-auto max-h-[800px] object-cover' src={portadaImg3} />
+          <div className="absolute   bottom-0 md:inset-y-20  right-0 sm:right-2 lg:right-10 rounded-md">
             <div className="p-2 sm:p-4 bg-mysin-400 max-w-[600px] rounded">
               <p className='font-semibold text-4xl md:text-5xl lg:text-7xl text-white border-8 border-white p-5 lg:p-10'>Sustainable Management, Environmental Preservation, Native Culture and Tourism</p>
             </div>
@@ -84,8 +84,8 @@ function Home() {
         </SwiperSlide>
 
         <SwiperSlide>
-          <img className='w-full h-full object-cover' src={portadaImg5} />
-          <div className="absolute  inset-y-32  right-0 sm:right-2 lg:right-10 rounded-md">
+          <img className='w-full h-auto max-h-[800px] object-cover' src={portadaImg5} />
+          <div className="absolute  bottom-0 md:inset-y-32  right-0 sm:right-2 lg:right-10 rounded-md">
             <div className="p-2 sm:p-4 bg-mysin-400 max-w-[600px] rounded">
               <p className='font-semibold text-4xl md:text-5xl lg:text-7xl text-white border-8 border-white p-5 lg:p-10'>Eco-sustainable advertising solutions and branding</p>
             </div>
